@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="group">
+        <div class="timer" id="timer">00 : 00 : 00</div>
+        <div class="buttons">
+          <button id="start">Start</button>
+          <button id="stop" disabled>Stop</button>
+          <button id="reset">Reset</button>
+        </div>
+        <div class="lap">
+          <button id="lap" disabled>Lap</button>
+        </div>
+      </div>
+
+      <div class="laps">
+        <h3>Laps</h3>
+        <div class="lap-record" id="lap-record"></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

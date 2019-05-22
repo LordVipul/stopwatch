@@ -1,0 +1,65 @@
+* {
+  font-family: "Helvetica", sans-serif; }
+
+body {
+  background-color: #64c2f9; }
+
+button {
+  padding: 0 0;
+  border: none;
+  cursor: pointer; }
+
+.app {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  margin: 0 40px;
+  text-align: center; }
+  .app .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .app .group .timer {
+      width: 300px;
+      font-weight: 600;
+      font-size: 24px;
+      padding: 15px;
+      background: #146899;
+      color: #f3f3f3;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px; }
+    .app .group .buttons {
+      width: 300px;
+      padding: 15px;
+      background: #ecfcd4; }
+      .app .group .buttons button {
+        background-color: #146899;
+        height: 40px;
+        width: 70px; }
+    .app .group .lap {
+      width: 300px;
+      padding: 15px;
+      background: #f3f3f3;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px; }
+      .app .group .lap button {
+        font-size: 18px;
+        color: white;
+        background-color: #cc585b;
+        width: 100px;
+        height: 50px; }
+  .app .laps {
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: 50%; }
+    .app .laps ol {
+      position: relative;
+      top: 30px; }
+
+/*# sourceMappingURL=output.css.map */
